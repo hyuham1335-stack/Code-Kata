@@ -7,7 +7,7 @@ class Solution {
             array[i] = '*';
         }
         
-        String answer = new String(array);
+        String answer = String.valueOf(array);
         
         return answer;
     }
